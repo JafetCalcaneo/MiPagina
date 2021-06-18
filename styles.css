@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+html {
+    --max-width: 1600px;
+}
+
+body {
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 100%;
+    background: red;
+}
+
+.first-header {
+    border-bottom: 4px solid black;
+}
+
+.content-header{
+    background:#262626;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    padding-bottom: 4px;
+    margin: 0 50px 0px 50px; 
+}
+
+.logo {
+    
+    overflow: hidden;
+    width: auto;
+    height: auto;
+}
+
+.image {
+    width: 50px;
+    height: 50px;
+}
+
+.header-mid-area {
+    width: 650px;
+    
+    margin-left: 100px;
+    
+}
+
+.list1 {
+    list-style-type: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.list1 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px;
+    padding-right: 10px;
+    color: white;
+}
+
+.header-last-area {
+    width: auto;
+    height: auto;
+    margin-left: 1100px;  
+}
+
+.principal {
+    background: #262626;
+    max-width: var(--max-width);
+    box-sizing: border-box; /*Mantiene el width */
+   width: 1500px;
+   height: 2000px;
+   padding: 0 0px;
+   margin: 0 auto;
+   overflow: hidden;
+}
+
+.header2 {
+    display: flex;
+    padding-top: 20px;
+    flex-direction: column;
+    
+}
+
+.list2 li {
+    list-style-type: none;
+    
+}
+
+.list2 a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0 8px;
+    color: wheat;
+}
+
+.list2 {
+    display: flex;
+    padding-left: 0px;
+}
+
+.tags {
+    margin: 0;
+}
+
+.header-title {
+    font-family: Bebas Neue;
+    font-size: 70px;
+    color: white;
+    margin: 0px;
+}
+
+.author {
+    display: flex;
+    margin-bottom: 20px;
+}
+.author-info {
+    
+    width: 50%;
+    color: white;
+    align-self: flex-end;
+    font-size: 17px;
+    margin-left: 10px;
+}
+
+.photo {
+    
+    width: 50px;
+    align-self: flex-end;
+}
+
+.article-and-sidebar {
+    width: var(--max-width);
+    height: 100%;
+}
+
+main {
+    max-width: 1075px;
+    height: 100%;
+    
+}
+
+.article-content {
+    width: 100%;
+    height: 100%;
+    border: 1px solid white;
+    background: #ffffff;
+    border-radius: 7px;
+}
